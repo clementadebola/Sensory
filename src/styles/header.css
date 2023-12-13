@@ -1,88 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.header{
-    /* display: flex;
-    color: black;
-    height: 90px;
-    width: 100%;
-    border-bottom: 1px solid grey;
-    justify-content: space-between;
-    border: 0px, 0px, 1px, 0px;
-    position: absolute; */
+.header {
+  box-sizing: border-box;
 
-    /* Frame 1 */
+  position: absolute;
+  /* width: 100%; */
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
 
-box-sizing: border-box;
-
-position: absolute;
-width: 1440px;
-height: 100px;
-left: 0px;
-top: 0px;
-
-background: #FFFFFF;
-border-bottom: 1px solid #979797;
-
+  background: #ffffff;
+  border-bottom: 1px solid #979797;
 }
-.btn button{
+.btn button {
   /* Frame 2 */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 14px 16px;
-gap: 10px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 10px;
 
-position: absolute;
-width: 232px;
-height: 49px;
-left: 1058px;
-top: calc(50% - 49px/2 - 0.5px);
+  position: absolute;
+  width: 232px;
+  height: 49px;
+  left: 1058px;
+  top: calc(50% - 49px / 2 - 0.5px);
 
-background: #000000;
+  background: #000000;
 
+  /* Contribute to this Service */
 
-/* Contribute to this Service */
+  width: 200px;
+  height: 21px;
 
-width: 200px;
-height: 21px;
+  font-family: "Tektur";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
 
-font-family: 'Tektur';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 21px;
-/* identical to box height */
+  color: #ffffff;
 
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
-.logo h2{
-    /* Sensory */
+.logo-icon{
+    height: 32px;
+    position: absolute;
+    top: 34px;
+    left: 140px;
+    width: 32px
+}
+.logo h2 {
+  /* Sensory */
 
-position: absolute;
-left: 12.92%;
-right: 80.14%;
-top: 34%;
-bottom: 35%;
+  position: absolute;
+  left: 12.92%;
+  right: 80.14%;
+  top: 34%;
+  bottom: 35%;
 
-font-family: 'Tektur';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 31px;
+  font-family: "Tektur";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
 
-color: #000000;
-
-
+  color: #000000;
 }
